@@ -29,7 +29,4 @@
 - **Backend:** Node.js, Express.js, MongoDB (Mongoose), Socket.IO  
 - **Tools:** VSCode, Postman, Git & GitHub  
 
----
-
-## Project Structure
 
