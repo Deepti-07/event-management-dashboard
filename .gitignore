@@ -28,4 +28,3 @@ coverage/      # <-- Add this to ignore test coverage reports
 *.njsproj
 *.sln
 *.sw?
-
