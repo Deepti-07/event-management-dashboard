@@ -7,16 +7,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Node modules and build folders
 node_modules
 dist
 dist-ssr
 *.local
-build/         # <-- Add this to ignore React production builds
-coverage/      # <-- Add this to ignore test coverage reports
-
-# Environment files
-.env           # <-- Add this to ignore environment variables
 
 # Editor directories and files
 .vscode/*
@@ -28,4 +22,3 @@ coverage/      # <-- Add this to ignore test coverage reports
 *.njsproj
 *.sln
 *.sw?
-
