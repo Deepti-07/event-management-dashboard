@@ -1,0 +1,9 @@
+@import 'react-big-calendar/lib/css/react-big-calendar.css';
+@import "tailwindcss";
+@layer base {
+body {
+ @apply bg-slate-50 text-slate-800 antialiased;
+ 
+ }
+
+}
