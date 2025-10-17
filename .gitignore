@@ -12,11 +12,12 @@ node_modules
 dist
 dist-ssr
 *.local
-build/         # <-- Add this to ignore React production builds
-coverage/      # <-- Add this to ignore test coverage reports
+build/         
+coverage/     
 
 # Environment files
-.env           # <-- Add this to ignore environment variables
+.env    
+backend/.env       
 
 # Editor directories and files
 .vscode/*

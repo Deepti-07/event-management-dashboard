@@ -2,7 +2,7 @@ import React from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 
-export default function CustomToolbar({ onNavigate, date, views, view, onView }) {
+export default function CustomToolbar({ onNavigate, date }) {
 
   const renderMonthAndYear = () => {
     return (
@@ -41,18 +41,6 @@ export default function CustomToolbar({ onNavigate, date, views, view, onView })
         >
           <ChevronRight className="h-6 w-6 text-slate-600" />
         </button>
-      </div>
-
-      <div className="flex items-center space-x-1 bg-white border border-slate-300 p-1 rounded-md">
-        {views.map(v => (
-          <button
-            key={v}
-            onClick={() => onView(v)}
-            className={`px-3 py-1 text-sm font-semibold rounded ${view === v ? 'bg-[#6f276f] text-white' : 'text-slate-600 hover:bg-slate-100'}`}
-          >
-            {v.charAt(0).toUpperCase() + v.slice(1)}
-          </button>
-        ))}
       </div>
     </div>
   );
